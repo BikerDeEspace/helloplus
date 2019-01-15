@@ -119,10 +119,10 @@ fi
 
 exec "$JAVACMD" $JAVA_OPTS  \
   -classpath "$CLASSPATH" \
-  -Dapp.name="app" \
+  -Dapp.name="HelloPlus" \
   -Dapp.pid="$$" \
   -Dapp.repo="$REPO" \
   -Dapp.home="$BASEDIR" \
   -Dbasedir="$BASEDIR" \
-  fr.ul.miage.helloPlus.App \
+  fr.ul.miage.helloplus.App \
   "$@"
